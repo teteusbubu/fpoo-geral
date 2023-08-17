@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+header {
+    background-image: url(../images/neo_quimica_arena-wallpaper_em_4k_ds_3840x2160.jpg);
+    min-height: 570px;
+    padding: 30px 0;
+    background-size: cover;
+    background-position: center;
+
+}   
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.logo {
+    position: relative;
+    background-image: url(../images/corinthianslogo.png);
+    z-index: 2;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 100px;
+    float: left;
+
+}
+
+.menu-desktop {
+    float: right;
+}
+
+.menu-desktop ul {
+    list-style: none;
+}
+
+.menu-desktop li {
+    display: inline-block;
+    margin: 0 15px;
+ 
+}
+
+.menu-mobile {
+    float: right;
+    display: none;
+
+}
+
+.menu-desktop a {
+    font-size: 20px;
+    color: #8f0303;
+    text-decoration: none;
+}
+
+.chamada {
+    padding: 100px 0;
+}
+
+.chamada h2 {
+    margin: 16px;
+    color: rgb(123, 123, 123);
+    font-size: 40px;
+
+
+}
+
+.chamada p {
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+
+.chamada form {
+    margin-top: 15px;
+}
+
+.chamada input[type="email"]:focus {
+    outline: 0;
+}
+
+.chamada input[type="submit"] {
+    font-size: 20px;
+    width: 200px;
+    height: 47px;
+    border-radius: 100px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: 0;
+}
+
+.chamada input[type="email"] {
+    font-size: 20px;
+    width: 300px;
+    height: 41px;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+.descricao {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.descricao p {
+
+    font-size: 25px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.descricao b {
+    color: #ff0000;
+    font-size: 27px;
+
+}
+
+.texto-descricao {
+    padding: 0 15px;
+    float: left;
+    width: 50%;
+
+}
+
+.texto-descricao h3 {
+    color: #31475e;
+}
+
+
+.texto-descricao p {
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.descricao2 img {
+    width: 30%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.descricao3 {
+
+    padding: 30px 0 70px 0;
+}
+
+.descricao3>.container {
+    background-image: url(../images/torcida_do_corinthians_no_treino_aberto_na_arena_8k_1920x1080.jpg);
+    background-size: cover;
+    position: relative;
+    min-height: 350px;
+
+}
+
+.depoimento {
+    position: absolute;
+    background-color: #fff;
+    left: 60%;
+    bottom: -30px;
+    max-width: 507px;
+    padding: 40px;
+    box-shadow: 0 8px 20px 0 rgba(51, 45, 45, 0.8);
+}
+
+.depoimento b {
+    font-size: 19px;
+    color: #ff0000;
+
+}
+
+.servicos{
+    margin-top: 10px;
+}
+.titulo-servicos{
+    text-align: center;
+}
+
+.combo-produtos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.espaco-produtos{
+    display: flex;
+    width: 33%;
+    padding: 38px;
+}
+
+.espaco-produtos p{
+    margin: 9px 0;
+}
+
+.espaco-produtos a{
+    display: inline-block;
+    border: 1px solid black;
+    background-color: #ff0000;
+    color: #000000;
+    font-size: 19px;
+    text-decoration: none;
+    padding: 6px 13px;
+    border-radius: 20px;
+}
+
+.box-produtos{
+    border-radius: 3px;
+    height: 100%;
+    box-shadow: 0 8px 20px 0 rgba(110, 109, 109, 0.8);
+    padding: 10px;
+}
+
+.formulario{
+    padding: 30px 0;
+}
+
+.formulario h2{
+    text-align: center;
+}
+
+.formulario form{
+    margin-top: 10px;
+}
+
+.formulario input[type=text]{
+    width: 100%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 100px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.formulario textarea{
+    width: 100%;
+    height: 130px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.footer{
+    margin: 50px 0;
+    border-top: 1px solid gray;
+}
+
+.box-footer{
+    margin: 20px 0;
+    float: left;
+    width: 33.33%;
+    padding: 0 15px;
+}
+
+.box-footer p{
+    margin-top: 15px;
+    font-size: 21px;
+}
+
+.box-footer input[type="text"]{
+    width: 80%;
+    padding-left: 10px;
+    max-width: 110px;
+    height: 45px;
+    border-radius: 100px;
+    border: 1px soli gray;
+}
+
+.box-footer button{
+    margin-left: 10px;
+    max-width: 60px;
+    height: 45px;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 50px;
+    background-color: #fff;
+    width: 70px;
+}
+
+/* Abaixo codigo de responsividade */
+/* Definindo medidas para Desktop e Tablets */
+@media screen and (max-width: 1024px) {
+
+    .depoimento{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        bottom: auto;
+        padding: 30px;
+        width: 90%;
+        transform: translate(-50%, -50%);
+    }
+
+    .espaco-produtos{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 400px;
+        padding: 10px;
+    }
+    .menu-desktop {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: block;
+    }
+
+    .chamada {
+        text-align: center;
+
+
+        .chamada input[type="email"] {
+            margin-bottom: 10px;
+        }
+
+    .box-footer{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    }
+}
+
+    /* Definindo medidas para celulares */
+    @media screen and (max-width: 768px){
+
+        .texto-descricao{
+            width: 100%;
+            display: block;
+            float: none;
+        }
+
+        .descricao2 img{
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+            float: none;
+            margin-top: 10px;
+            max-width: 500px;
+        }
+
+    }
