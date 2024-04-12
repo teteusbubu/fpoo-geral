@@ -1,0 +1,28 @@
+body{
+    background-image: url(./img/mato.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 90px;
+    color: #013106d6;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 200px;
+    margin-top: 130px;   
+}
+
+p{
+    padding-right: 300px;
+    padding-left: 300px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    color: #ffffffd8;
+    position: relative;
+    margin-top: 200px;
+}
+
+a{
+    padding-left: 1000px;
+    position: relative;
+    top: -380px;
+}
